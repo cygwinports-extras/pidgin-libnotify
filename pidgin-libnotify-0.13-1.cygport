@@ -1,0 +1,5 @@
+inherit gnome2
+
+DESCRIPTION="Pidgin libnotify notification plugin"
+HOMEPAGE="http://gaim-libnotify.sourceforge.net/"
+SRC_URI="mirror://sourceforge/gaim-libnotify/${P}.tar.gz"
