@@ -1,5 +1,5 @@
 category: Gnome Net
-requires: libgcc1 libglib2.0_0 libgdk_pixbuf2.0_0 libgtk2.0_0 libintl8 libnotify1 libpurple0 pidgin
+requires: libgcc1 libglib2.0_0 libgdk_pixbuf2.0_0 libgtk2.0_0 libintl8 libnotify4 libpurple0 pidgin
 sdesc: "Pidgin libnotify notifications plugin"
 ldesc: "This plugin adds a libnotify interface to pidgin, enabling 
 popups much like guifications. It has some configuration options, to 

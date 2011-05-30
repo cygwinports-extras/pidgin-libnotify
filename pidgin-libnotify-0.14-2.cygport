@@ -3,4 +3,9 @@ inherit gnome2
 DESCRIPTION="Pidgin libnotify notification plugin"
 HOMEPAGE="http://gaim-libnotify.sourceforge.net/"
 SRC_URI="mirror://sourceforge/gaim-libnotify/${P}.tar.gz"
-PATCH_URI="0.13-no-undefined.patch"
+
+PATCH_URI="
+	0.13-no-undefined.patch
+	0.14-libnotify07.patch
+	0.14-fix-show-button.patch
+"
