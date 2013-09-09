@@ -1,0 +1,19 @@
+inherit gnome2
+
+NAME="pidgin-libnotify"
+VERSION=0.14
+RELEASE=3
+CATEGORY="Net"
+SUMMARY="Pidgin libnotify notifications plugin"
+DESCRIPTION="This plugin adds a libnotify interface to pidgin, enabling popups
+much like guifications. It has some configuration options, to show popups when
+a buddy signs on, on new messages and on new conversations only."
+HOMEPAGE="http://gaim-libnotify.sourceforge.net/"
+SRC_URI="mirror://sourceforge/gaim-libnotify/${NAME}-${VERSION}.tar.gz"
+
+PATCH_URI="
+	http://pkgs.fedoraproject.org/cgit/pidgin-libnotify.git/plain/pidgin-libnotify-fix-show-button.patch
+	http://pkgs.fedoraproject.org/cgit/pidgin-libnotify.git/plain/pidgin-libnotify-0.14-libnotify-0.7.0.patch
+	http://pkgs.fedoraproject.org/cgit/pidgin-libnotify.git/plain/pidgin-libnotify-german-translation-typo.patch
+	0.13-no-undefined.patch
+"
